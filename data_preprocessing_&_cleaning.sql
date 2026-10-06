@@ -63,5 +63,3 @@ FROM ecommerce e
 JOIN SequencedData s
 ON e.Session_ID = s.Session_ID
 AND e.Event_Time = s.Event_Time
-
-	

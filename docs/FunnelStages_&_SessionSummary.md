@@ -20,7 +20,10 @@ User completes the order processing flow successfully.
 | 3 | `Checkout` | High-intent transaction initiation |
 | 4 | `Purchase` | Successful conversion event |
 
-``` CREATE VIEW Session_Summary AS
+## Session Summary Created
+### (as View)
+``` 
+CREATE VIEW Session_Summary AS
 WITH SessionAggregation AS (
     SELECT 
         Session_ID,
