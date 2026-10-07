@@ -138,7 +138,7 @@ SELECT
 FROM ChannelFunnelStages
 ORDER BY Total_Revenue DESC;
 
--- Funnel Analysis by Channel
+-- Funnel Analysis by Region
 
 -- calculate the number of sessions that reached each funnel stage (Add to Cart, Checkout, Purchase) for each region
 WITH RawSessionSummary AS (
